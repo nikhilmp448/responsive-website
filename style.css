@@ -1,0 +1,129 @@
+.container-fluid{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 20px;
+}
+.d-flex{
+    margin-right: 40px;
+}
+
+.nav-link{
+    margin-left: 20px;
+}
+
+.itemText{
+    padding: 70px;
+    align-items: center;
+    text-align: center;
+}
+.item-Product{
+    display: flex;
+}
+.card{
+    border: 0;
+    text-align: center;
+    
+}
+.footerMainIN{
+    display: flex;
+    border-bottom: .1px solid #898888;
+    justify-content:space-evenly;
+    
+}
+.footerMain{
+    background-color: #5a5a5a;
+    padding:20px;
+}
+.footerItem{
+    text-align: center;
+    color: white;
+}
+
+a{
+    text-decoration:none ;
+     color:white;
+}
+.footerRegion{
+    color:white;
+    border-bottom: .1px solid #898888;
+}
+.footerEnd{
+    color: white;
+}
+.Floating ul{
+    flex: 1;
+    text-align: center;
+}
+.Floating ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+#picscreen{
+    background-image: url(img/hp-pavilion-gaming-desktop-review-hero1589983682725190.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    height: 400px ;
+    transition: 1s;
+    
+}
+.picbutton button{
+    font-size: x-large;
+    border: 0;
+    background-color: transparent;
+    outline: 0;
+}
+.picbutton{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex ;
+    /* height: 70px; */
+    background-color: rgba(0, 174, 255, 0.411);
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .carousel-control-next, .carousel-control-prev{
+ 
+  width: 5%;
+  
+  }
+
+  
